@@ -6,8 +6,6 @@ set -e
 
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
-
 mkdir frank
 cd frank
 #创建.nojekyll 防止Github Pages build错误

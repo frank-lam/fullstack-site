@@ -4,10 +4,8 @@
 set -e
 
 # 进入生成的文件夹
-mkdir frank
-cd frank
+cd notes
 #创建.nojekyll 防止Github Pages build错误
-touch .nojekyll
 
 git init
 git add -A
